@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+    overflow: hidden;
+}
+
+body {
+    background-color: #8b1044;
+}
+
+.links {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.link a:hover {
+    color: #4a4a4a;
+}
+
+.space {
+    margin-left: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px auto -160px;
+    color: #fff;
+    font-size: 100px;
+    font-weight: 600;
+    font-family: papyrus;
+}
+
+form {
+    display: flex;
+    flex-flow: column;
+    margin-top: 180px;
+}
+
+input[type="text"] {
+    margin: auto;
+    border: 0.5px solid #4a4a4a;
+    width: 45vw;
+    height: 7vh;
+    border-radius: 50px;
+    font-size: 18px;
+    background-color: #490823;
+    color: #fff;
+    padding-left: 20px;
+}
+
+input[type="text"]:hover {
+    color: #2a2a2a;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+}
+
+input[type="submit"] {
+    margin: 20px auto;
+    font-size: 15px;
+    padding: 10px;
+    background-color: #2a2a2a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    border: 0.5px solid #4a4a4a;
+}
+
+#search {
+    margin-left: 500px;
+}
+
+h1 > span {
+    display: flex;
+    text-transform: lowercase;
+    font-size: large;
+    font-weight: 400;
+    margin-top: -20px;
+    margin-left: 730px;
+    color: blue;
+}
+
+.body {
+    background-color: #8b1044;
+}
+
+.adv-links {
+    color: red;
+    font-weight: 600;
+
+}
+
+.adv-links:hover {
+    color: blue;
+}
+
+.adv-search {
+    margin: 0;
+    padding-right: 1050px;
+    font-size: 20px;
+    font-weight: 400;
+    color: red;
+}
+
+hr {
+    margin-top: 30px;
+    border:  1px solid #999999;
+}
+
+h2 {
+    color: #1a1a1a;
+    margin-bottom: 30px;
+    padding-top: 40px;
+    padding-left: 50px;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.form {
+    margin: 50px auto;
+    padding-left: 50px;
+}
+
+#words,
+#phrase,
+#any,
+#none {
+    border-radius: 0;
+    background-color: #fff;
+    color: #1a1a1a;
+    height: 5vh;
+    margin-top: -20px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+
+#adv-search {
+    background-color: #0492C2;
+    font-weight: 600;
+    font-size: 10px;
+    width: 11%;
+    margin-top: auto;
+    margin-left: 647px;
+    border-radius: 0;
+}
+
+#lucky {
+    margin-top: -57px;
+    margin-left: 650px;
+}
